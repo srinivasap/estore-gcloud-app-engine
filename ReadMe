@@ -1,7 +1,7 @@
 Sample Hello World App configured to deploy in Google App Engine:
 
 Run the Application Locally:
-SRCDIR=src/cmpe-281-202617/estore-gcloud-app-engine
+SRCDIR=src/cmpe-281-lab2/estore-gcloud-app-engine
 git clone https://github.com/srinivasap/estore-gcloud-app-engine.git $SRCDIR
 cd $SRCDIR
 ./mvnw -DskipTests appengine:devserver
