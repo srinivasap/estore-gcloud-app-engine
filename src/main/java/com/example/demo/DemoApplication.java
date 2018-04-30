@@ -13,6 +13,6 @@ public class DemoApplication {
 
   @GetMapping("/")
   public String hello() {
-    return "hello world!";
+    return "Welcome to App deployed on Google App Engine!";
   }
 }
